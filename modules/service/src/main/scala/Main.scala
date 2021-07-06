@@ -24,9 +24,9 @@ import org.http4s.implicits._
 import org.http4s.server._
 import org.http4s.server.staticcontent._
 import skunk.{ Command => _, _ }
-import io.chrisdavenport.log4cats.Logger
+import org.typelevel.log4cats.Logger
 import cats.data.Kleisli
-import io.chrisdavenport.log4cats.slf4j.Slf4jLogger
+import org.typelevel.log4cats.slf4j.Slf4jLogger
 import natchez.http4s.AnsiFilterStream
 import java.io.ByteArrayOutputStream
 import java.io.OutputStreamWriter
